@@ -1,0 +1,17 @@
+div .link {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+}
+.active-link{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(67, 135, 123);
+    letter-spacing: 4px;
+}
+.link:hover ,.active-link:hover{
+    color: rgb(67, 135, 123) !important;
+    transition: .6s all ease;
+}
+

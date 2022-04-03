@@ -1,0 +1,14 @@
+.min-h{
+    min-height: 100vh;
+}
+.submit{
+    color: white;
+    background: rgb(67, 135, 123);
+    border: 2px solid rgb(67, 135, 123) !important;
+}
+.submit:hover{
+    background-color: aquamarine;
+    color: rgb(67, 135, 123);
+    transition: .6s all ease;
+    border: 2px solid rgb(67, 135, 123) !important;
+}
