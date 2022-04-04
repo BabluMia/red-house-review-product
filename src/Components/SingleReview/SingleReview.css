@@ -1,0 +1,27 @@
+.review{
+    padding: 15px 20px ;
+    text-align: center;
+    position: relative;
+    border-radius: 8px;
+    background-color: rgb(42, 178, 153) !important;
+    cursor: pointer;
+}
+.review:hover{
+    transform: translateY(-10px);
+    transition: .6s all linear;
+}
+.review img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.quote{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 50px;
+}
+.review p{
+    margin-top: 65px;
+}

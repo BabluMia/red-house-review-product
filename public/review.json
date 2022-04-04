@@ -2,43 +2,43 @@
     {
         "id": "76ihguhuguyguyg",
         "name": "Sean Parker",
-        "feedback": 241,
+        "feedback": " I'm glad they keep up the quality for most of their shoes and work great for me when I play basketball or work out.",
         "img": "https://e-commerse-html-css.netlify.app/assets/img/user-1.png",
         "ratings":"5.00"
     },
     {
         "id": "76ihguhyuyguguyguyg",
         "name": "Dean Elger",
-        "feedback": 423,
+        "feedback": "In need of sneakers or other sportswear without a doubt I go here! Why? Because Nike is always stylish,",
         "img": "https://e-commerse-html-css.netlify.app/assets/img/user-2.png",
         "ratings":"4.00"
     },
     {
         "id": "7wer6ihguhuguyguyg",
         "name": "Alan Ambrose",
-        "feedback": 726,
+        "feedback": "They can get pricey, but I've never had any problems with any shoes I've purchased from them",
         "img": "https://e-commerse-html-css.netlify.app/assets/img/user-3.png",
         "ratings":"4.50"
     },
     {
         "id": "76ihgutghuguw23yguyg",
         "name": "Cris Liyn",
-        "feedback": 529,
-        "img": "https://e-commerse-html-css.netlify.app/assets/img/user-2.png",
+        "feedback": "I've bought several pairs of Nike shoes over the last few years, and they've always lasted a long time",
+        "img": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
         "ratings":"5.00"
     },
     {
         "id": "76ihgthxzuhuguyguyg",
         "name": "Liam Planket",
-        "feedback": 601,
-        "img": "https://e-commerse-html-css.netlify.app/assets/img/user-2.png",
+        "feedback": "Very good shopping experience! Fast delivery and good products! there often offers you can take .",
+        "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "ratings":"4.50"
     },
     {
         "id": "76ihguhyhukuguyguyg",
         "name": "Mitchel Starc",
-        "feedback": 670,
-        "img": "https://e-commerse-html-css.netlify.app/assets/img/user-1.png",
+        "feedback": "I'm glad they keep up the quality for most of their shoes and work great for me when I play basketball or work out.",
+        "img": "https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
         "ratings":"4.00"
     }
 ]
