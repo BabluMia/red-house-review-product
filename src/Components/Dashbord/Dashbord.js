@@ -1,5 +1,5 @@
 import React from 'react';
-import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dashbord = () => {
     const data = [
@@ -79,7 +79,7 @@ const Dashbord = () => {
                         }}
                     >
                         <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="name" />
+                        <XAxis dataKey="month" />
                         <YAxis dataKey="investment" />
                         <Tooltip />
                         <Legend />
@@ -110,10 +110,13 @@ const Dashbord = () => {
                     </BarChart>
                 </div>
                 <div className="col-5">
-                    {/* <PieChart width={400} height={400}>
-                        <Pie data="data" dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
+                    <h3 className='text-center my-3'>Investment In Month</h3>
+                    <PieChart width={500} height={400}>
+                        <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
                         <Pie data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
-                    </PieChart> */}
+
+                        <Tooltip />
+                    </PieChart>
                 </div>
             </div>
         </div>

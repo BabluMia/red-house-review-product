@@ -1,0 +1,7 @@
+.home-btn{
+    width: 250px !important;
+}
+.home-img img{
+    cursor: pointer;
+    transform: rotate(-30deg);
+}

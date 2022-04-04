@@ -1,0 +1,44 @@
+[
+    {
+        "id": "Mar",
+        "name": "Sean Parker",
+        "feedback": 241,
+        "img": "https://e-commerse-html-css.netlify.app/assets/img/user-1.png",
+        "ratings":"5.00"
+    },
+    {
+        "id": "Apr",
+        "name": "Dean Elger",
+        "feedback": 423,
+        "img": "https://e-commerse-html-css.netlify.app/assets/img/user-2.png",
+        "ratings":"4.00"
+    },
+    {
+        "id": "May",
+        "name": "Alan Ambrose",
+        "feedback": 726,
+        "img": "https://e-commerse-html-css.netlify.app/assets/img/user-3.png",
+        "ratings":"4.50"
+    },
+    {
+        "id": "Jun",
+        "name": "Cris Liyn",
+        "feedback": 529,
+        "img": "https://e-commerse-html-css.netlify.app/assets/img/user-2.png",
+        "ratings":"5.00"
+    },
+    {
+        "id": "Jul",
+        "name": "Liam Planket",
+        "feedback": 601,
+        "img": "https://e-commerse-html-css.netlify.app/assets/img/user-2.png",
+        "ratings":"4.50"
+    },
+    {
+        "id": "Aug",
+        "name": "Mitchel Starc",
+        "feedback": 670,
+        "img": "https://e-commerse-html-css.netlify.app/assets/img/user-1.png",
+        "ratings":"4.00"
+    }
+]
