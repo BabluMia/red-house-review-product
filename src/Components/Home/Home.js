@@ -2,8 +2,8 @@ import React from 'react';
 import './Home.css'
 const Home = () => {
     return (
-        <div className='min-h ' style={{ background: 'radial-gradient(#fff,#ffd6d6)' }}>
-            <div className="row px-2 px-lg-5  mx-auto d-flex justify-content-between align-content-center">
+        <div >
+            <div className="row px-2 px-lg-5 mb-4 mx-auto d-flex justify-content-between align-content-center" style={{ background: 'radial-gradient(#fff,#ffd6d6)' }}>
                 <div className="col-12 col-lg-7 d-flex align-align-content-between justify-content-center px-5 flex-column">
                     <h1 className='text-start'>
                         Give Your Workout
@@ -20,6 +20,10 @@ const Home = () => {
                 <div className="col-12 col-lg-4 home-img mb-4 me-0 me-lg-5">
                     <img src="https://i.postimg.cc/0QZpXCMG/air-force-1-07-mens-shoes-5-QFp5-Z-removebg-preview.png" className='img-fluid' alt="" />
                 </div>
+            </div>
+            <div className="container">
+                <h3 className='my-4 text-center'>See Top Reviews :</h3>
+                
             </div>
         </div>
     );

@@ -1,5 +1,12 @@
 .footer{
-    background: white;
-    position: sticky;
-    bottom: 0;
+    background: rgb(248, 246, 246);
+    overflow-x: hidden;
+}
+.custom-icon{
+    font-size: 1.2rem;
+    padding: 8px 12px;
+    color: radial-gradient(#fff,#ffd6d6) !important;
+}
+.GrFacebookOption{
+    color:radial-gradient(#fff,#ffd6d6) !important ;
 }

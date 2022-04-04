@@ -41,7 +41,7 @@ const Dashbord = () => {
         }
     ]
     return (
-        <div className='min-h ms-0 ms-lg-5'>
+        <div className='mb-4 ms-0 ms-lg-5'>
             <h2 className='text-center my-4'>See Our Management Dashbord</h2>
             <div className="row ms-1 ms-lg-5  ps-lg-0 g-5 px-lg-5 px-0 mx-auto justify-content-between">
                 <div className="col-12 col-lg-6">
