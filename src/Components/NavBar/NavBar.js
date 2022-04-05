@@ -10,10 +10,10 @@ const NavBar = () => {
         <div className="col-5 d-none d-xl-block">
           <h2>Red House</h2>
         </div>
-        <div className="col-xl-6 col-12 ms-3 text-xl-cnter text-xxl-end fw-bold ">
+        <div className="col-xl-6 col-12 navbar ms-0 me-3 me-xl-0 ms-xl-3 text-xl-cnter text-xxl-end fw-bold ">
           <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/">Home</NavLink>
           <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/reviews">Reviews</NavLink>
-          <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/blog">Blog</NavLink>
+          <NavLink className={({ isActive }) => (isActive ? "active-link " : "link")} to="/blog">Blog</NavLink>
           <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/dashbord">Dashbord</NavLink>
           <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/contact">Contact</NavLink>
         </div>

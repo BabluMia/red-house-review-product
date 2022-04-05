@@ -4,10 +4,10 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div className='min-h'>
+        <div className='min-h blog'>
             <h2 className='text-center my-4'>We Are Here To Answere</h2>
-            <div className="row mx-auto  w-75 px-2 ">
-                <div className="col-11 col-lg-11">
+            <div className="row  ms-0  mt-5 mt-md-0 px-2 ">
+                <div className="col-11 col-lg-8  w-lg-75 mx-auto">
                     <Accordion>
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>What Is Context API ?</Accordion.Header>

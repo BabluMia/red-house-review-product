@@ -1,6 +1,8 @@
 .footer{
     background: rgb(248, 246, 246);
     overflow-x: hidden;
+    width: 95vw;
+    margin: 0 auto;
 }
 .custom-icon{
     font-size: 1.2rem;

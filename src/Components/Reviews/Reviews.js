@@ -11,7 +11,7 @@ const Reviews = () => {
         <div className='min-h'>
             <h1 className='my-4 text-center'>See Our Happy Customar</h1>
             <div className="container mt-5">
-            <div className="row w-75 mx-auto mt-4 gap-4">
+            <div className="row w-100 w-md-75 mx-auto mt-4 gap-4">
                 {
                     reviews.map(review => <SingleReview key={review.id} review={review}></SingleReview>)
                 }

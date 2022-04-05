@@ -8,9 +8,9 @@ const Home = () => {
     const [reviews, setReviews] = useReviews()
     const topThree = reviews.slice(0, 3)
     return (
-        <div >
+        <div className='home'>
             <div className="row px-2 px-lg-5 mb-4 mx-auto d-flex justify-content-between align-content-center" style={{ background: 'radial-gradient(#fff,#ffd6d6)' }}>
-                <div className="col-12 col-lg-7 d-flex  justify-content-center px-5 flex-column">
+                <div className="col-12 col-lg-7 mt-4 mt-xl-0 d-flex  justify-content-center px-5 flex-column">
                     <h1 className='text-start' data-aos="fade-right">
                         Give Your Workout
                         A New Style!
@@ -30,7 +30,7 @@ const Home = () => {
             <div className="container">
                 <h3 className='my-4 text-center'>See Top Reviews : {topThree.length}</h3>
                 <div className="container mt-5">
-                    <div className="row w-75 mx-auto mt-4 gap-4 " data-aos="fade-up"
+                    <div className="row w-100 w-md-75 mx-auto mt-4 gap-4 " data-aos="fade-up"
                         data-aos-duration="2000">
                         {
                             topThree.map(review => <SingleReview key={review.id} review={review}></SingleReview>)
@@ -39,7 +39,7 @@ const Home = () => {
                 </div>
                 <div className='w-75 mx-auto d-flex justify-content-center mb-5'>
                     <Link to='/reviews'>
-                        <button className='py-2 mt-5 mb-5 ms-5 submit px-5 border-0 rounded-2 text-2xl outline-0 mx-auto'>See All Review</button>
+                        <button className='py-2 mt-5 mb-5 ms-2 ms-md-5 submit px-5 border-0 rounded-2 text-2xl outline-0 mx-auto'>See All Review</button>
                     </Link>
                 </div>
 

@@ -41,10 +41,10 @@ const Dashbord = () => {
         }
     ]
     return (
-        <div className='mb-4 ms-0 ms-lg-5'>
+        <div className='mb-4 ms-0 ms-lg-5 w-100 px-3'>
             <h2 className='text-center my-4'>See Our Management Dashbord</h2>
-            <div className="row ms-1 ms-lg-5  ps-lg-0 g-5 px-lg-5 px-0 mx-auto justify-content-between">
-                <div className="col-12 col-lg-6" >
+            <div className="row w-100 ms-1 ms-lg-5  ps-lg-0 g-5 px-lg-5 px-0 mx-auto justify-content-between">
+                <div className="col-8 col-lg-6 " >
                     <h3 className='text-center my-3' style={{color:"#82ca9d"}}>Month Wise Sale</h3>
                     <LineChart
                         width={500}
@@ -65,7 +65,7 @@ const Dashbord = () => {
                         <Line type="monotone" dataKey="sell" stroke="#8884d8" activeDot={{ r: 8 }} />
                     </LineChart>
                 </div>
-                <div className="col-12 col-lg-6" >
+                <div className="col-8  col-lg-6" >
                     <h3 className='text-center my-3' style={{color:"#82ca9d"}}>Investment Vs Raveniew</h3>
                     <AreaChart
                         width={500}
@@ -87,7 +87,7 @@ const Dashbord = () => {
                         <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
                     </AreaChart>
                 </div>
-                <div className="col-12 col-lg-6" >
+                <div className="col-8  col-lg-6" >
                     <h3 className='text-center my-3' style={{color:"#82ca9d"}}>Investment Vs Raveniew</h3>
                     <BarChart
                         width={500}
@@ -109,7 +109,7 @@ const Dashbord = () => {
                         <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
                     </BarChart>
                 </div>
-                <div className="col-5" >
+                <div className="col-8  col-lg-6" >
                     <h3 className='text-center my-3' style={{color:"#82ca9d"}}>Investment In Month</h3>
                     <PieChart width={500} height={400} >
                         <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />

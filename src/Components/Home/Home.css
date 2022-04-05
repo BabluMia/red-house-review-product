@@ -1,3 +1,6 @@
+.home{
+    overflow-x: hidden;
+}
 .home-btn{
     width: 250px !important;
 }
