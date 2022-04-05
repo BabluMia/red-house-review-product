@@ -6,8 +6,7 @@ This is a multi page review website  [Check It Out](https://red-house-react.netl
 
 [GitHub Pepo](https://github.com/programming-hero-web-course-4/product-analysis-website-BabluMia) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+
 
 ### `Project Detail`
 
@@ -17,7 +16,7 @@ Let's Talk About My Project
 
 * This is a product review website . I use React , Html , Css ,Bootstrap and some react packge .
 
-* There id 6 page including 404 page . 
+* There is 6 page including 404 page . 
 
 * In Home page you can see our top product and top review of this product .
 
